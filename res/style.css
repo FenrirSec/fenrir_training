@@ -1,0 +1,116 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings:
+    "ROND" 0;
+    padding: 0;
+    margin: 0;
+    background-color: #000;    
+    color: #BEC1C6;
+    color: #aef78e;
+    font-size: 1.2rem;
+}
+
+#header {
+    height: 6rem;
+    background-color: #000;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    line-height: 2rem;
+    padding-left: 2rem;
+    border-bottom: 3px solid #aef78e;
+    display: flex;
+    width: 100%;
+}
+
+#container {
+    padding: 2rem;
+    margin-top: 6rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #111;
+    background: linear-gradient(0deg, #11111155 0%, #aef78e22 100%);
+}
+
+.logo {
+    margin-top: 1rem;
+    height: 4rem;
+}
+
+.logo-txt {
+    margin-left: 1.5rem;
+    font-size: 2rem;
+}
+
+.course {
+    border: 3px solid #aef78e;
+    padding: 4rem;
+    background-color: #000;
+}
+
+.course p {
+    width: 50em;
+}
+
+.course li {
+    text-align: left;
+}
+
+.important {
+    color: #eee;
+}
+
+.course button {
+    font-family: "Doto", sans-serif;
+    font-weight: bolder;
+    background-color: #8ed76e;
+    border: 1px solid  #33a73e;
+    color: #000;
+    border-radius: .5rem;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    font-size: 2rem;
+}
+
+.course b {
+    color:  #aeffcc;
+}
+
+.booklet {
+    margin: auto;
+    border-radius: 1rem;
+    background-image: url("booklet_bg.jpg");
+    background-size: 100% 100%;
+    padding: 1rem;
+    width: 40em;
+    height: 60em;
+}
+
+.booklet img {
+    z-index: 1;
+    position: relative;
+    top: 20.2rem;
+    left: 0rem;
+    height: 31.5rem;
+    width: 17.5em;
+    filter: blur(0.4px) saturate(80%) contrast(1.10) brightness(0.8);
+    transform: rotate(23.9deg)
+}
+
+#footer {
+    height: 2rem;
+    padding: 1rem;
+    line-height: 2.5rem;
+    background-color: #000;
+    color: #aef78e;
+    font-weight: bolder;
+}
